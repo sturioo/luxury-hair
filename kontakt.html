@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Salon Fryzjerski Luxury Hair Jasnowska</title>
+    <meta name="description" content="Skontaktuj się z Salon Fryzjerski Luxury Hair Jasnowska. Umów wizytę lub zadaj pytanie.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="logo1.png" alt="Logo Salon Elegancja">
+                    <span class="logo-text">Luxury Hair Jasnowska</span>
+                </a>
+                <button class="hamburger" aria-label="Menu">☰</button>
+                <nav>
+                    <ul>
+                        <li><a href="homepage.html">Strona główna</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="realizacje.html">Realizacje</a></li>
+                        <li><a href="cennik.html">Cennik</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h1>Kontakt</h1>
+                <div class="contact-info">
+                    <p>Możesz się z nami skontaktować telefonicznie pod numerem: <strong>+48 882 044 447</strong></p>
+                    <p>Jeśli wolisz skorzystać z formularza kontaktowego, wypełnij poniższe pola. Pamiętaj, aby w wiadomości podać konkretną usługę z naszego <a href="cennik.html">CENNIKA</a>.</p>
+                </div>
+                <div class="contact-form">
+                    <h2>Formularz kontaktowy</h2>
+                    <form action="#" method="POST" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Imię i nazwisko:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Numer telefonu:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferowana data wizyty:</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferowana godzina wizyty:</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość (proszę podać konkretną usługę z cennika):</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Zapisz się!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Szybkie linki</h3>
+                    <ul>
+                        <li><a href="homepage.html">Strona główna</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="realizacje.html">Realizacje</a></li>
+                        <li><a href="cennik.html">Cennik</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" id="kontakt">
+                    <h3>Kontakt</h3>
+                    <ul>
+                        <li>Telefon: +48 882 044 447</li>
+                        <li>Adres: ul. Stanisława I. Witkiewicza 45D, 71-123, Szczecin</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/luxury_hair_jasnowska/" aria-label="Odwiedź nasz profil na Instagramie"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Godziny otwarcia</h3>
+                    <ul>
+                        <li>Poniedziałek - Piątek: 10:00 - 19:00</li>
+                        <li>Sobota: 10:00 - 19:00</li>
+                        <li>Niedziela: 10:00 - 19:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Salon Elegancja. Wszelkie prawa zastrzeżone. | <a href="https://creativefront.pl">Strona wykonana przez Creativefront.pl</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="kontakt.js"></script>
+</body>
+</html>
